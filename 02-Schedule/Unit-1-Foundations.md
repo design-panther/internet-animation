@@ -23,8 +23,9 @@ through the whole course — **motion has an audience and a job**.
 - [[Week-03]] — Principles of Animation for Vector & UI
 - [[Week-04]] — UCD I: Research & Intent
 
-**Deliverables:** [[Exercise-1-Motion-Audit]] (Week 1, 10 pts) ·
-[[Project-1-Animated-Asset-Kit]] (Week 4, 50 pts).
+**Deliverables:** [[Project-1-Animated-Asset-Kit]] (Week 4, 50 pts), plus
+whichever in-class exercises are offered these weeks (any 7 of the semester's
+14 count — see [[Grading]]).
 
 **What "done" looks like:** you can draw a clean, layer-organized vector asset
 set, animate it with easing you can defend, and hand over a one-page motion

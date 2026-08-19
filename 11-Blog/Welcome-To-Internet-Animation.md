@@ -32,7 +32,7 @@ If you want the granular version — what happens which week, what's due when �
 This isn't a static syllabus PDF you read once and forget. It's a working tool, and it's built to be used all semester:
 
 - **Week pages** ([[Week-01]] and onward) are your weekly home base — topic, in-class activities, what's due, and curated resources for that specific stretch of material.
-- **Project briefs**, like [[Exercise-1-Motion-Audit]], tell you exactly what you're making and exactly what it's graded on. Templates such as [[Motion-Brief-Template]] give you scaffolding so you're not reinventing the UCD paperwork every single project.
+- **Project briefs**, like [[Project-1-Animated-Asset-Kit]], tell you exactly what you're making and exactly what it's graded on. Templates such as [[Motion-Brief-Template]] give you scaffolding so you're not reinventing the UCD paperwork every single project.
 - **[[04-Resources/_index|Learning Resources]]** is a rated library of tutorials, docs, videos, and tools, organized by unit and week. Every link has been checked and every entry is free-first — when you're stuck at 11pm on a Bodymovin export error, this is where you go before you go anywhere else.
 - **The class calendar** is the one piece of this wiki that isn't mine alone — it's shared, and on the class platform it's editable by *everyone in the class*. Find it in the sidebar under **⧗ Class Calendar**. Use it to schedule your own study sessions, flag a question for critique day, or fix a date that's drifted. Treat it as a group whiteboard for the semester's logistics, because that's exactly what it is.
 - **Whiteboards** are the visual, collaborative canvases we'll use for critique sessions, moodboards, and working through a UCD problem live — a place to put sketches, screenshots, and sticky notes next to each other instead of describing them in a document.
@@ -42,7 +42,7 @@ None of this is decoration either. It's infrastructure, built the same way we're
 
 ## How to actually succeed in here
 
-Start now. **Exercise 1, the motion audit** ([[Exercise-1-Motion-Audit]]), is due Friday of Week 1, and it is deliberately not a big lift — it's designed to get you looking at motion critically from day one, before you've written a line of code or opened After Effects. Don't let "it's early, I have time" turn into a Thursday-night scramble. The habit you build in Week 1 is the habit you'll be running on in Week 16.
+Start now. The **in-class exercises** start in class from Week 1 — fourteen are offered across the semester and any seven count, ten points each. They are deliberately not big lifts; they're designed to get you working with motion from day one, before Project 1 asks for anything finished. Don't let "only seven count, I have time" turn into a November scramble: the students who bank exercises early are the ones with breathing room in Week 16.
 
 Come to the work sessions. ET 206 is open Tuesday and Thursday, 8:00–9:15am, and it's not mandatory in the sense of roll call — it's mandatory in the sense that this is a studio course, and studio courses are won in the room, not in isolation. Bring your in-progress file, not your finished one. That's where I'm most useful to you.
 

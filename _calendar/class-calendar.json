@@ -1,6 +1,6 @@
 {
   "id": "class-calendar",
-  "rev": 3,
+  "rev": 4,
   "semester": "Fall 2026",
   "note": "Shared class calendar — anyone in the class can add or edit events (click a day to add, click an event to edit). Week dates were seeded from an assumed Mon Aug 17 semester start; fix any that are off.",
   "events": [
@@ -165,15 +165,6 @@
       "link": "/wiki/02-Schedule/Week-16"
     },
     {
-      "id": "ev-seed-17",
-      "addedBy": "Reid (seeded)",
-      "ts": "2026-08-19",
-      "title": "Exercise 1 due — Motion audit (10 pts)",
-      "start": "2026-08-21",
-      "category": "due",
-      "link": "/wiki/03-Projects/Exercise-1-Motion-Audit"
-    },
-    {
       "id": "ev-seed-18",
       "addedBy": "Reid (seeded)",
       "ts": "2026-08-19",
@@ -181,15 +172,6 @@
       "start": "2026-09-11",
       "category": "due",
       "link": "/wiki/03-Projects/Project-1-Animated-Asset-Kit"
-    },
-    {
-      "id": "ev-seed-19",
-      "addedBy": "Reid (seeded)",
-      "ts": "2026-08-19",
-      "title": "Exercise 2 due — Working Lottie export (10 pts)",
-      "start": "2026-09-25",
-      "category": "due",
-      "link": "/wiki/03-Projects/Exercise-2-Lottie-Export"
     },
     {
       "id": "ev-seed-20",
@@ -269,6 +251,15 @@
       "title": "ET 206 open work sessions run T/TH 8:00–9:15am all semester",
       "start": "2026-08-17",
       "category": "note"
+    },
+    {
+      "id": "ev-seed-exercises",
+      "title": "In-class exercises: 14 offered across the semester — any 7 count (10 pts each)",
+      "start": "2026-08-17",
+      "category": "note",
+      "link": "/wiki/01-Syllabus/Grading",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19"
     }
   ]
 }

@@ -23,25 +23,32 @@ the motion is for, what it's supposed to do, and how you know it works?
 
 | Item | Points | Due |
 |---|---|---|
-| [[Exercise-1-Motion-Audit|Exercise 1 — Motion audit]] | 10 | Week 1 |
 | [[Project-1-Animated-Asset-Kit|Project 1 — Animated vector asset kit]] | 50 | Week 4 |
-| [[Exercise-2-Lottie-Export|Exercise 2 — Working Lottie export]] | 10 | Week 6 |
 | [[Project-2-Microinteraction-Set|Project 2 — Microinteraction set]] | 50 | Week 8 (midterm critique) |
 | [[Project-3-Interactive-Sequence|Project 3 — Interactive / extended sequence + user test]] | 50 | Week 11 |
 | [[Project-4-Final-Animation|Project 4 — Final animation + UCD process story]] | 50 | Week 16 |
-| **Total** | **220** | |
+| In-class exercises — complete **any 7 of the 14** offered | 7 × 10 = 70 | in class, across the semester |
+| **Total** | **270** | |
+
+## The in-class exercises
+
+Fourteen exercises are offered across the semester, in class. You choose which
+to complete — **any seven count**, at 10 points each. Completing more than
+seven doesn't add points, but it does add skill. Exercise instructions are
+given in class and posted to the [[03-Projects/_index|Projects & exercises]]
+section as they're assigned.
 
 ## Letter-grade scale
 
-Standard 90/80/70/60% cutoffs on 220 points:
+Standard 90/80/70/60% cutoffs on 270 points:
 
 | Grade | Points | Percent |
 |---|---|---|
-| A | 198–220 | 90%+ |
-| B | 176–197 | 80–89% |
-| C | 154–175 | 70–79% |
-| D | 132–153 | 60–69% |
-| F | below 132 | <60% |
+| A | 243–270 | 90%+ |
+| B | 216–242 | 80–89% |
+| C | 189–215 | 70–79% |
+| D | 162–188 | 60–69% |
+| F | below 162 | <60% |
 
 ## What each grade means
 

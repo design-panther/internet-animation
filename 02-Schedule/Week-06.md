@@ -28,7 +28,7 @@ verify: false
 
 ## Due
 
-- [[Exercise-2-Lottie-Export|Exercise 2 — Working Lottie export]] (10 pts): a working Lottie tested on 2 targets. Due Friday.
+- Nothing formally due — but by the end of this week you should have exported a working Lottie and tested it on two targets. In-class exercises continue (any 7 of 14 count — see [[Grading]]).
 
 ## Resources
 

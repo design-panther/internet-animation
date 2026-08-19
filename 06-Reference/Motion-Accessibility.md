@@ -49,6 +49,6 @@ animation communicates, then communicate it more calmly.
 3. A `prefers-reduced-motion` alternative exists and preserves meaning.
 4. No large-area parallax/zoom/spin tied to scroll without an opt-out.
 5. Motion isn't the *only* carrier of critical information.
-6. You've watched your piece with Reduce Motion ON (you did this in Exercise 1).
+6. You've watched your piece with Reduce Motion ON (make this a Week-1 habit).
 
 **Deeper reading:** resources tagged `accessibility` in [[Learning-Resources]].

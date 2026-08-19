@@ -28,7 +28,7 @@ verify: false
 
 ## Due
 
-- Nothing due — Exercise 2 lands next week.
+- Nothing due — Project 2 is due at the Week-8 midterm critique.
 
 ## Resources
 

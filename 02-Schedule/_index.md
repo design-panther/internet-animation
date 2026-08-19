@@ -15,13 +15,14 @@ verify: false
 
 Four units. Every week has its own page with topics, activities, deliverables,
 and resources. Live dates — including anything the class adds — are on the
-**class calendar** (sidebar → ⧗ Class Calendar).
+**class calendar** (sidebar → ⧗ Class Calendar). In-class exercises run all
+semester: 14 offered, **any 7 count** (10 pts each) — see [[Grading]].
 
 ## Unit 1 — Foundations · [[Unit-1-Foundations]]
 
 | Week | Topic | Due |
 |---|---|---|
-| [[Week-01|1]] | Why Motion? The Landscape of Vector Animation | Exercise 1 (10 pts) |
+| [[Week-01|1]] | Why Motion? The Landscape of Vector Animation | |
 | [[Week-02|2]] | Vector Drawing Foundations | |
 | [[Week-03|3]] | Principles of Animation for Vector & UI | |
 | [[Week-04|4]] | UCD I: Research & Intent | **Project 1 (50 pts)** |
@@ -31,7 +32,7 @@ and resources. Live dates — including anything the class adds — are on the
 | Week | Topic | Due |
 |---|---|---|
 | [[Week-05|5]] | After Effects for Vector Animation | |
-| [[Week-06|6]] | Lottie I: The Format & Ecosystem | Exercise 2 (10 pts) |
+| [[Week-06|6]] | Lottie I: The Format & Ecosystem | |
 | [[Week-07|7]] | Lottie II: Implementation & Optimization | |
 | [[Week-08|8]] | **MIDTERM CRITIQUE** | **Project 2 (50 pts)** |
 

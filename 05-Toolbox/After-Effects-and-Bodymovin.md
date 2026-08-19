@@ -36,6 +36,6 @@ Rules of thumb (the full supported-features list is in [[Learning-Resources]]):
 ## Where it appears
 
 Weeks 5–8 (Unit 2), then whenever you choose the Lottie pipeline for Projects
-3–4. Exercise 2 is a supported-vs-unsupported scavenger hunt in miniature.
+3–4. Week 6's export work is a supported-vs-unsupported scavenger hunt in miniature.
 
 **Tutorials:** see [[Learning-Resources]] tagged `week-05` / `week-06`.

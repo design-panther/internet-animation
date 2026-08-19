@@ -42,5 +42,5 @@ motion serves users rather than decorates.
 
 1. Read the [[01-Syllabus/_index|syllabus]].
 2. Set up your free accounts: LottieFiles, Rive, Figma (education), and bookmark Fancy Animation Studio.
-3. Read [[Week-01]] and start **Exercise 1 — the motion audit** ([[Exercise-1-Motion-Audit]]), due Friday of Week 1.
+3. Read [[Week-01]] — and know the exercise deal: **14 in-class exercises are offered this semester; any 7 count** (10 pts each). Show up and bank them early.
 4. Check the class calendar for the ET 206 open work sessions (T/TH 8:00–9:15am).

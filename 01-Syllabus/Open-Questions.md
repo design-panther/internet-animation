@@ -33,9 +33,14 @@ final; the public wiki pages currently present the *proposed* resolutions.
 5. **Premiere / Audition** — dropped from this revision. Confirm no
    department requirement remains.
 6. **Grade scale** — the old syllabus scale (A=45–50 … F≤29) totals ~50 pts and
-   its C/D ranges overlap. The wiki publishes the proposed 90/80/70/60% scale
-   on 220 points (A=198+, B=176–197, C=154–175, D=132–153, F<132). Confirm the
-   department doesn't mandate a different scale.
+   its C/D ranges overlap. Structure updated 2026-08-19 per Reid: 4 projects
+   (4×50) + **14 in-class exercises of which any 7 count**. The wiki publishes
+   a 90/80/70/60% scale on **270 points** (A=243+, B=216–242, C=189–215,
+   D=162–188, F<162), **assuming 10 pts per exercise** — confirm that value,
+   and that the department doesn't mandate a different scale.
+6a. **Exercise content** — the 14 exercise pages (03-Projects/Exercise-01…14)
+   are PLACEHOLDERS only. Reid provides the instructions later; do not author
+   exercise content. Which weeks each exercise is offered in is also TBD.
 7. **Programming outcome** — old outcome "create interactive applications using
    basic programming commands" replaced with "develop simple interactive
    animations using state-based authoring tools" (Rive state machines). Confirm

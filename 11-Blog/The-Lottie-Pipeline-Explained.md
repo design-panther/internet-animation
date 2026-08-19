@@ -153,11 +153,11 @@ against, lives in [[Motion-Accessibility]].
 ## Where this lands
 
 Read the [[Unit-2-The-Lottie-Pipeline|Unit 2 schedule page]] for the
-week-by-week breakdown, and start small: [[Exercise-2-Lottie-Export]] asks
-you to run one composition through the real pipeline and name, in three
-honest sentences, what survived export and what didn't. That exercise is
-deliberately a miniature of the whole unit — you can't shortcut your way past
-the supported-features list, so you might as well meet it early.
+week-by-week breakdown, and start small: in [[Week-06]] you'll run one
+composition through the real pipeline and name, in three honest sentences,
+what survived export and what didn't. That drill is deliberately a miniature
+of the whole unit — you can't shortcut your way past the supported-features
+list, so you might as well meet it early.
 
 Everything converges in [[Project-2-Microinteraction-Set]]: three to five
 Lottie files, shipped as one coherent system, with a reduced-motion story

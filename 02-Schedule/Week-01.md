@@ -25,11 +25,11 @@ verify: false
 ## Do
 
 - Create your free accounts and confirm you can open each tool
-- Start collecting animations you encounter in apps you actually use — you'll need three for the exercise
+- Start a running collection of animations you encounter in apps you actually use — auditing real motion is a habit this course leans on all semester
 
 ## Due
 
-- [[Exercise-1-Motion-Audit|Exercise 1 — Motion audit]] (10 pts): find 3 animations in apps you use; analyze who they serve and why. Due Friday.
+- Nothing formally due — but the **in-class exercises** begin: 14 are offered across the semester and any **7 count** (10 pts each; see [[Grading]]). Instructions are given in class.
 
 ## Resources
 

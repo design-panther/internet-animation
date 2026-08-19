@@ -23,8 +23,9 @@ microinteraction set is judged against its own brief.
 - [[Week-07]] — Lottie II: Implementation & Optimization
 - [[Week-08]] — MIDTERM CRITIQUE
 
-**Deliverables:** [[Exercise-2-Lottie-Export]] (Week 6, 10 pts) ·
-[[Project-2-Microinteraction-Set]] (Week 8, 50 pts).
+**Deliverables:** [[Project-2-Microinteraction-Set]] (Week 8, 50 pts), plus
+whichever in-class exercises are offered these weeks (any 7 of the semester's
+14 count — see [[Grading]]).
 
 **What "done" looks like:** a set of 3–5 related microinteractions shipped as
 working Lottie files — small, smooth, tested on two targets, with a

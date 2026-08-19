@@ -72,8 +72,8 @@ See the **[[02-Schedule/_index|week-by-week schedule]]** for full detail, and th
 
 | Unit | Weeks | Focus | Due |
 |---|---|---|---|
-| [[Unit-1-Foundations|1 · Foundations]] | 1–4 | Why motion, vector drawing, animation principles, UCD research & intent | Ex. 1 (Wk 1) · Project 1 (Wk 4) |
-| [[Unit-2-The-Lottie-Pipeline|2 · The Lottie Pipeline]] | 5–8 | After Effects, the Lottie format, implementation & optimization, midterm critique | Ex. 2 (Wk 6) · Project 2 (Wk 8) |
+| [[Unit-1-Foundations|1 · Foundations]] | 1–4 | Why motion, vector drawing, animation principles, UCD research & intent | Project 1 (Wk 4) |
+| [[Unit-2-The-Lottie-Pipeline|2 · The Lottie Pipeline]] | 5–8 | After Effects, the Lottie format, implementation & optimization, midterm critique | Project 2 (Wk 8) |
 | [[Unit-3-Interactive-Platforms|3 · Interactive & Alternative Platforms]] | 9–12 | Rive state machines, Fancy Animation Studio, testing motion with users, SVG & CSS | Project 3 (Wk 11) · Final proposal (Wk 12) |
 | [[Unit-4-Final-Project|4 · Final Project]] | 13–16 | Research & design, production, peer testing, iterate & polish, presentations | Project 4 (Wk 16) |
 
@@ -84,8 +84,8 @@ See **[[Grading]]** for the full breakdown and grade descriptions.
 | Item | Points |
 |---|---|
 | Projects 1–4 | 4 × 50 = 200 |
-| Exercises 1–2 | 2 × 10 = 20 |
-| **Total** | **220** |
+| In-class exercises — any 7 of the 14 offered | 7 × 10 = 70 |
+| **Total** | **270** |
 
 Each project is graded on meeting the assignment objectives, class
 participation (use of class time and critique), innovative use and craft of the
