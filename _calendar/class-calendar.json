@@ -1,0 +1,274 @@
+{
+  "id": "class-calendar",
+  "rev": 3,
+  "semester": "Fall 2026",
+  "note": "Shared class calendar — anyone in the class can add or edit events (click a day to add, click an event to edit). Week dates were seeded from an assumed Mon Aug 17 semester start; fix any that are off.",
+  "events": [
+    {
+      "id": "ev-seed-01",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 1 — Why Motion? The Landscape of Vector Animation",
+      "start": "2026-08-17",
+      "end": "2026-08-21",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-01"
+    },
+    {
+      "id": "ev-seed-02",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 2 — Vector Drawing Foundations",
+      "start": "2026-08-24",
+      "end": "2026-08-28",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-02"
+    },
+    {
+      "id": "ev-seed-03",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 3 — Principles of Animation for Vector & UI",
+      "start": "2026-08-31",
+      "end": "2026-09-04",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-03"
+    },
+    {
+      "id": "ev-seed-04",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 4 — UCD I: Research & Intent",
+      "start": "2026-09-07",
+      "end": "2026-09-11",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-04"
+    },
+    {
+      "id": "ev-seed-05",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 5 — After Effects for Vector Animation",
+      "start": "2026-09-14",
+      "end": "2026-09-18",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-05"
+    },
+    {
+      "id": "ev-seed-06",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 6 — Lottie I: The Format & Ecosystem",
+      "start": "2026-09-21",
+      "end": "2026-09-25",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-06"
+    },
+    {
+      "id": "ev-seed-07",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 7 — Lottie II: Implementation & Optimization",
+      "start": "2026-09-28",
+      "end": "2026-10-02",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-07"
+    },
+    {
+      "id": "ev-seed-08",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 8 — MIDTERM CRITIQUE",
+      "start": "2026-10-05",
+      "end": "2026-10-09",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-08"
+    },
+    {
+      "id": "ev-seed-09",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 9 — Rive: Motion That Responds",
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-09"
+    },
+    {
+      "id": "ev-seed-10",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 10 — Fancy Animation Studio Deep Dive",
+      "start": "2026-10-19",
+      "end": "2026-10-23",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-10"
+    },
+    {
+      "id": "ev-seed-11",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 11 — UCD II: Testing Motion with Users",
+      "start": "2026-10-26",
+      "end": "2026-10-30",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-11"
+    },
+    {
+      "id": "ev-seed-12",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 12 — Web-Native Motion: SVG & CSS",
+      "start": "2026-11-02",
+      "end": "2026-11-06",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-12"
+    },
+    {
+      "id": "ev-seed-13",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 13 — Final Project: Research & Design",
+      "start": "2026-11-09",
+      "end": "2026-11-13",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-13"
+    },
+    {
+      "id": "ev-seed-14",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 14 — Final Project: Production I + Peer Testing",
+      "start": "2026-11-16",
+      "end": "2026-11-20",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-14"
+    },
+    {
+      "id": "ev-seed-15",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 15 — Final Project: Production II — Iterate & Polish",
+      "start": "2026-11-23",
+      "end": "2026-11-27",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-15"
+    },
+    {
+      "id": "ev-seed-16",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Week 16 — FINAL PRESENTATIONS",
+      "start": "2026-11-30",
+      "end": "2026-12-04",
+      "category": "class",
+      "link": "/wiki/02-Schedule/Week-16"
+    },
+    {
+      "id": "ev-seed-17",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Exercise 1 due — Motion audit (10 pts)",
+      "start": "2026-08-21",
+      "category": "due",
+      "link": "/wiki/03-Projects/Exercise-1-Motion-Audit"
+    },
+    {
+      "id": "ev-seed-18",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "PROJECT 1 due — Animated vector asset kit (50 pts)",
+      "start": "2026-09-11",
+      "category": "due",
+      "link": "/wiki/03-Projects/Project-1-Animated-Asset-Kit"
+    },
+    {
+      "id": "ev-seed-19",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Exercise 2 due — Working Lottie export (10 pts)",
+      "start": "2026-09-25",
+      "category": "due",
+      "link": "/wiki/03-Projects/Exercise-2-Lottie-Export"
+    },
+    {
+      "id": "ev-seed-20",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "PROJECT 2 due — Microinteraction set (50 pts)",
+      "start": "2026-10-09",
+      "category": "due",
+      "link": "/wiki/03-Projects/Project-2-Microinteraction-Set"
+    },
+    {
+      "id": "ev-seed-21",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Midterm critique — does the motion serve the persona?",
+      "start": "2026-10-06",
+      "time": "8:00–9:15am",
+      "category": "critique"
+    },
+    {
+      "id": "ev-seed-22",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "PROJECT 3 due — Interactive sequence + user test (50 pts)",
+      "start": "2026-10-30",
+      "category": "due",
+      "link": "/wiki/03-Projects/Project-3-Interactive-Sequence"
+    },
+    {
+      "id": "ev-seed-23",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Final project proposals due",
+      "start": "2026-11-06",
+      "category": "due",
+      "link": "/wiki/03-Projects/Project-4-Final-Animation"
+    },
+    {
+      "id": "ev-seed-24",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Instructor check-ins on approved proposals",
+      "start": "2026-11-10",
+      "end": "2026-11-12",
+      "category": "studio"
+    },
+    {
+      "id": "ev-seed-25",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "Mid-production peer usability test",
+      "start": "2026-11-19",
+      "category": "critique"
+    },
+    {
+      "id": "ev-seed-26",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "PROJECT 4 due — Final animation + UCD process story (50 pts)",
+      "start": "2026-12-01",
+      "category": "due",
+      "link": "/wiki/03-Projects/Project-4-Final-Animation"
+    },
+    {
+      "id": "ev-seed-27",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "FINAL PRESENTATIONS",
+      "start": "2026-12-01",
+      "time": "8:00–9:15am",
+      "category": "critique"
+    },
+    {
+      "id": "ev-seed-28",
+      "addedBy": "Reid (seeded)",
+      "ts": "2026-08-19",
+      "title": "ET 206 open work sessions run T/TH 8:00–9:15am all semester",
+      "start": "2026-08-17",
+      "category": "note"
+    }
+  ]
+}

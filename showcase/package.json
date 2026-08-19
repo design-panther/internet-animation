@@ -1,0 +1,16 @@
+{
+  "name": "internet-animation-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static public showcase for the GRFX1222 Internet Animation course wiki - built from visibility:public pages only. Deployed to Firebase Hosting.",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && npx --yes serve dist -l 4441",
+    "deploy": "node build.mjs && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}

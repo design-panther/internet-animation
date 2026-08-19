@@ -1,0 +1,5 @@
+{
+  "projects": { "default": "print-and-burn" },
+  "targets": { "print-and-burn": { "hosting": { "showcase": ["internet-animation-showcase"] } } },
+  "etags": {}
+}
