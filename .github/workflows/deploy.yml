@@ -1,0 +1,29 @@
+name: Deploy public wiki
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install showcase deps
+        run: npm ci
+        working-directory: showcase
+      - name: Validate front-matter
+        run: node scripts/validate-frontmatter.mjs
+      - name: Build the public site
+        run: node build.mjs
+        working-directory: showcase
+      - name: Deploy to live channel
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PRINT_AND_BURN }}
+          projectId: print-and-burn
+          entryPoint: ./showcase
+          channelId: live

@@ -3,3 +3,4 @@ node_modules/
 showcase/dist/
 .DS_Store
 _kanban/
+_private/

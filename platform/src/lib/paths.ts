@@ -21,6 +21,7 @@ export const IGNORE_DIRS = new Set([
   "_templates",
   "_kanban",
   "_calendar",
+  "_private",
 ]);
 
 /** A path segment is a template file we skip. */

@@ -16,6 +16,10 @@ verify: false
 *Placeholder.* This is one of the semester's **14 in-class exercises**. The
 instructions are provided by the instructor in class and will be posted here.
 
+*(Planned as a **GitHub pull-request exercise** — you'll contribute to this
+very wiki through a branch, a PR, and a review. See the repo's CONTRIBUTING
+guide. Full instructions from the instructor.)*
+
 > **How exercises are graded:** complete any **7 of the 14** offered across the
 > semester — each completed exercise is worth 10 points (70 points total). See
 > [[Grading]].

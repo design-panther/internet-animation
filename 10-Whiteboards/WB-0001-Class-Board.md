@@ -7,7 +7,9 @@ visibility: internal
 owner: Reid
 created: 2026-08-19
 updated: 2026-08-19
-tags: [whiteboards, class]
+tags:
+  - whiteboards
+  - class
 related: []
 verify: false
 ---
