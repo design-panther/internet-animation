@@ -255,7 +255,7 @@ export function injectBlogCards(body: string, entries: Entry[]): string {
 }
 
 // ---------------------------------------------------------------------------
-// Attachments belonging to an entry (by ID prefix, e.g. CS-0001-*)
+// Attachments belonging to an entry (by ID prefix, e.g. RES-0001-*)
 // ---------------------------------------------------------------------------
 
 export interface Attachment {
