@@ -79,7 +79,7 @@ export default function NewForm({
             value={title}
             autoFocus
             onChange={(e) => setTitle(e.target.value)}
-            placeholder={`e.g. Birch River blue`}
+            placeholder={`A short, specific title`}
           />
         </label>
         <label className="field" style={{ flex: 1, marginTop: 0 }}>

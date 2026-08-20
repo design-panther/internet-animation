@@ -10,10 +10,10 @@ export default function VerifyPage() {
       </div>
       <h1>⚠ Verify queue</h1>
       <p className="muted" style={{ maxWidth: 660 }}>
-        Every page carrying an unverified claim — geology, DNR/DEP or public-land
-        rules, Indigenous consultation, grant requirements, or an uncited source.
-        Clear each by adding a citation, then set <code>verify: false</code>. Nothing
-        here is publish- or submission-ready.
+        Every page carrying an unverified claim — a fact, figure, rule, date, or
+        uncited source flagged with <code>verify: true</code> in its front-matter.
+        Clear each by adding a citation or confirming the fact, then set{" "}
+        <code>verify: false</code>. Nothing here is publish-ready.
       </p>
 
       {queue.length === 0 ? (

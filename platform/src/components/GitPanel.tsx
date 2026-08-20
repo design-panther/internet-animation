@@ -200,7 +200,7 @@ export default function GitPanel() {
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="e.g. Add CS-0007 Birch River clay sample + firing FIRE-0002"
+              placeholder="e.g. Add two new entries; update the overview page"
               onKeyDown={(e) => e.key === "Enter" && doCommit()}
             />
           </label>
@@ -240,7 +240,7 @@ export default function GitPanel() {
                 type="text"
                 value={remoteUrl}
                 onChange={(e) => setRemoteUrl(e.target.value)}
-                placeholder="git@github.com:you/appalachian-clay.git  or  https://github.com/you/repo.git"
+                placeholder="git@github.com:you/your-wiki.git  or  https://github.com/you/repo.git"
                 onKeyDown={(e) => e.key === "Enter" && doAddRemote()}
               />
               <button className="btn" onClick={doAddRemote} disabled={!!busy}>
