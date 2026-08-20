@@ -130,7 +130,7 @@ function blogCardsMarkdown(pages) {
   const cards = posts
     .map((p) => {
       const d = p.data || {};
-      const accent = d.blog_accent ? String(d.blog_accent) : "#c2410c";
+      const accent = d.blog_accent ? String(d.blog_accent) : "#fb923c";
       const kicker = d.blog_kicker ? `<p class="num">${escText(d.blog_kicker)}</p>\n` : "";
       const summary = escText(d.blog_summary || d.description || "");
       return `<div class="blog-card" style="--blog-accent: ${accent}">\n${kicker}\n### [[${p.basename}|${p.title}]]\n\n<p>${summary}</p>\n</div>`;
@@ -187,7 +187,7 @@ function navHtml(pages, currentSlug) {
       (a, b) => Number(b.isIndex) - Number(a.isIndex) || a.title.localeCompare(b.title),
     );
     const open = current && current.top === section.key ? " open" : "";
-    out += `<details class="nav-group"${open}><summary class="nav-head" style="color:${section.accent}"><span>${section.glyph}</span> ${section.label}</summary>`;
+    out += `<details class="nav-group"${open}><summary class="nav-head"><span style="color:${section.accent}">${section.glyph}</span> ${section.label}</summary>`;
     for (const p of inSection) {
       const active = p.slug === currentSlug ? " active" : "";
       const label = p.isIndex ? "Overview" : p.title;
