@@ -288,6 +288,33 @@ function calFmtDay(s) {
   const dt = new Date(y, m - 1, d);
   return `${CAL_DOW[dt.getDay()]} ${CAL_MONTHS[m - 1].slice(0, 3)} ${d}`;
 }
+function calMonthGrid(ym, events) {
+  const [y, m] = ym.split("-").map(Number);
+  const first = new Date(y, m - 1, 1);
+  const gridStart = new Date(first);
+  gridStart.setDate(1 - first.getDay());
+  const pad = (n) => String(n).padStart(2, "0");
+  const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  let out = `<h2>${CAL_MONTHS[m - 1]} ${y}</h2><div class="cal-grid">`;
+  for (const d of CAL_DOW) out += `<div class="cal-dow">${d}</div>`;
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(gridStart);
+    d.setDate(gridStart.getDate() + i);
+    const dIso = iso(d);
+    const inMonth = d.getMonth() === m - 1;
+    const evs = events.filter((e) => e.start <= dIso && dIso <= (e.end || e.start));
+    let pills = "";
+    for (const e of evs.slice(0, 4)) {
+      const color = CAL_COLORS[e.category] || CAL_COLORS.note;
+      pills += `<span class="cal-pill" style="background:${color}26;border-left-color:${color}" title="${escapeHtml(e.title)}">${e.time ? `${escapeHtml(e.time)} · ` : ""}${escapeHtml(e.title)}</span>`;
+    }
+    if (evs.length > 4) pills += `<span class="cal-more">+${evs.length - 4} more</span>`;
+    out += `<div class="cal-cell${inMonth ? "" : " dim"}"><span class="cal-daynum">${d.getDate()}</span><div class="cal-evs">${pills}</div></div>`;
+  }
+  out += `</div>`;
+  return out;
+}
+
 function calendarContent(keyIndex) {
   const f = path.join(CONTENT_DIR, "_calendar", "class-calendar.json");
   if (!fs.existsSync(f)) return null;
@@ -295,17 +322,37 @@ function calendarContent(keyIndex) {
   const events = [...(doc.events || [])].sort(
     (a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title),
   );
+  // months spanned by events (inclusive), in order
+  const months = [];
+  for (const e of events) {
+    for (const ym of [e.start.slice(0, 7), (e.end || e.start).slice(0, 7)]) {
+      if (!months.includes(ym)) months.push(ym);
+    }
+  }
+  months.sort();
+
+  let out = `<article class="prose cal-static"><h1>⧗ Class Calendar — ${escapeHtml(doc.semester || "")}</h1>`;
+  out += `<p class="cal-static-note">This is the schedule as of the last site update. The live calendar — which everyone in the class can edit — is on the class platform in ET 206 / over the class network.</p>`;
+  out += `<div class="cal-legend">`;
+  for (const [k, color] of Object.entries(CAL_COLORS)) {
+    out += `<span class="cal-key"><i style="background:${color}"></i> ${CAL_LABELS[k]}</span>`;
+  }
+  out += `</div>`;
+  for (const ym of months) {
+    const inMonth = events.filter((e) => e.start.slice(0, 7) <= ym && (e.end || e.start).slice(0, 7) >= ym);
+    out += calMonthGrid(ym, inMonth);
+  }
+
+  out += `<h2>All events</h2>`;
   const byMonth = new Map();
   for (const e of events) {
     const key = e.start.slice(0, 7);
     if (!byMonth.has(key)) byMonth.set(key, []);
     byMonth.get(key).push(e);
   }
-  let out = `<article class="prose cal-static"><h1>⧗ Class Calendar — ${escapeHtml(doc.semester || "")}</h1>`;
-  out += `<p class="cal-static-note">This is the schedule as of the last site update. The live calendar — which everyone in the class can edit — is on the class platform in ET 206 / over the class network.</p>`;
   for (const [ym, evs] of byMonth) {
     const [y, m] = ym.split("-").map(Number);
-    out += `<h2>${CAL_MONTHS[m - 1]} ${y}</h2><div class="cal-static-list">`;
+    out += `<h3>${CAL_MONTHS[m - 1]} ${y}</h3><div class="cal-static-list">`;
     for (const e of evs) {
       const color = CAL_COLORS[e.category] || CAL_COLORS.note;
       const span = e.end ? `${calFmtDay(e.start)} → ${calFmtDay(e.end)}` : calFmtDay(e.start);
