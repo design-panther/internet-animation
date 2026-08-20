@@ -44,3 +44,4 @@ motion serves users rather than decorates.
 2. Set up your free accounts: LottieFiles, Rive, Figma (education), and bookmark Fancy Animation Studio.
 3. Read [[Week-01]] — and know the exercise deal: **14 in-class exercises are offered this semester; any 7 count** (10 pts each). Show up and bank them early.
 4. Check the class calendar for the ET 206 open work sessions (T/TH 8:00–9:15am).
+5. **This wiki is yours to improve** — every page is a Markdown file in a git repo, and changes arrive by pull request. Read the repo's CONTRIBUTING guide; your first PR can be as small as a fixed typo.
